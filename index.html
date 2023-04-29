@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link href="./reset.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="container__superior">
+        <img src="./img/banner.jpg" class="superior__banner">
+        <form class="formulario__lista" id="novoItem">
+            <h1 class="superior__titulo">Lista de Compras</h1>
+            <p class="superior__texto">Inserir itens:</p> 
+            <input type="text" name ="campo__itens" class="superior__input" id="campo__itens">
+            <input class="superior__submit" type="submit" value="Adicionar" id="adiciona" >
+        </form>
+    </section>
+    <section class="container__itens__lista">
+        <ul class="lista__itens" id="lista__itens">
+
+        
+      
+    </ul>
+    </section>
+    <footer class="container__footer">
+        <input  onClick="window.print()" type="button" class="botao__print" id="btn"> <label for="btn"><img src="./img/icons8-print-48.png" class="imagem__botao"></label>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
